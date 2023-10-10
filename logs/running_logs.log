@@ -54,3 +54,74 @@ x=============x]
 [2023-10-10 15:15:22,077: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<<
 
 x============x]
+[2023-10-10 17:26:42,167: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 17:26:42,169: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 17:26:42,169: INFO: comman: create directory at: artifacts]
+[2023-10-10 17:26:42,169: INFO: comman: create directory at: artifacts\training]
+[2023-10-10 17:30:16,834: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 17:30:16,837: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 17:30:16,838: INFO: comman: create directory at: artifacts]
+[2023-10-10 17:30:16,839: INFO: comman: create directory at: artifacts\training]
+[2023-10-10 20:44:44,272: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-10-10 20:44:44,288: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 20:44:44,293: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 20:44:44,293: INFO: comman: create directory at: artifacts]
+[2023-10-10 20:44:44,293: INFO: comman: create directory at: artifacts/data_ingestion]
+[2023-10-10 20:44:44,295: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-10 20:44:52,711: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-10 20:44:53,407: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-10-10 20:44:53,407: INFO: main: ****************************]
+[2023-10-10 20:44:53,407: INFO: main: >>>>>>> stage Prepare base model started <<<<<<<]
+[2023-10-10 20:44:53,407: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 20:44:53,423: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 20:44:53,423: INFO: comman: create directory at: artifacts]
+[2023-10-10 20:44:53,423: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-10 20:44:54,114: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-10 20:44:54,742: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x============x]
+[2023-10-10 20:44:54,742: INFO: main: *****************]
+[2023-10-10 20:44:54,742: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-10 20:44:54,756: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 20:44:54,760: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 20:44:54,760: INFO: comman: create directory at: artifacts]
+[2023-10-10 20:44:54,760: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "D:\project\kidney-disease-classification\main.py", line 34, in <module>
+    model_trainer.main()
+  File "d:\project\kidney-disease-classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 14, in main
+    training_config = config.get_training_config()
+  File "d:\project\kidney-disease-classification\src\cnnClassifier\config\configuration.py", line 58, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+NameError: name 'os' is not defined
+[2023-10-10 21:59:10,374: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-10-10 21:59:10,377: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 21:59:10,382: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 21:59:10,382: INFO: comman: create directory at: artifacts]
+[2023-10-10 21:59:10,385: INFO: comman: create directory at: artifacts/data_ingestion]
+[2023-10-10 21:59:10,386: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-10 21:59:18,214: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-10 21:59:19,363: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-10-10 21:59:19,363: INFO: main: ****************************]
+[2023-10-10 21:59:19,363: INFO: main: >>>>>>> stage Prepare base model started <<<<<<<]
+[2023-10-10 21:59:19,367: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 21:59:19,369: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 21:59:19,369: INFO: comman: create directory at: artifacts]
+[2023-10-10 21:59:19,369: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-10 21:59:20,036: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-10 21:59:20,688: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x============x]
+[2023-10-10 21:59:20,688: INFO: main: *****************]
+[2023-10-10 21:59:20,688: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-10 21:59:20,692: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 21:59:20,700: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 21:59:20,700: INFO: comman: create directory at: artifacts]
+[2023-10-10 21:59:20,707: INFO: comman: create directory at: artifacts\training]
+[2023-10-10 22:01:54,557: INFO: main: >>>>>>> stage Training completed <<<<<<
+
+x==============x]
