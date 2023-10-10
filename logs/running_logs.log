@@ -19,3 +19,18 @@
 [2023-10-09 22:57:39,643: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<
 
 x=============x]
+[2023-10-10 14:40:02,062: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 14:40:02,187: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 14:40:02,189: INFO: comman: create directory at: artifacts]
+[2023-10-10 14:40:02,191: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-10 14:40:10,452: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-10 14:43:26,360: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 14:43:26,363: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 14:43:26,365: INFO: comman: create directory at: artifacts]
+[2023-10-10 14:43:26,367: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-10 14:43:26,938: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-10 14:45:22,934: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-10 14:45:22,938: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-10 14:45:22,940: INFO: comman: create directory at: artifacts]
+[2023-10-10 14:45:22,942: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-10 14:45:23,577: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
