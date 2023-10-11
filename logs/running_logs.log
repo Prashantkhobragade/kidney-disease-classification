@@ -276,3 +276,48 @@ x==============x]
 [2023-10-11 14:53:27,073: INFO: main: >>>>>> stage Evaluation Stage completed <<<<<<
 
 x==========x]
+[2023-10-11 15:44:51,138: INFO: main: >>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-10-11 15:44:51,147: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-11 15:44:51,153: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-11 15:44:51,153: INFO: comman: create directory at: artifacts]
+[2023-10-11 15:44:51,153: INFO: comman: create directory at: artifacts/data_ingestion]
+[2023-10-11 15:44:51,155: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-11 15:44:58,385: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-11 15:44:59,065: INFO: main: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-10-11 15:44:59,065: INFO: main: ****************************]
+[2023-10-11 15:44:59,067: INFO: main: >>>>>>> stage Prepare base model started <<<<<<<]
+[2023-10-11 15:44:59,069: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-11 15:44:59,070: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-11 15:44:59,070: INFO: comman: create directory at: artifacts]
+[2023-10-11 15:44:59,070: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-11 15:44:59,661: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-11 15:45:00,306: INFO: main: >>>>>>>> stage Prepare base model completed <<<<<<<<
+
+x============x]
+[2023-10-11 15:45:00,308: INFO: main: *****************]
+[2023-10-11 15:45:00,308: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-10-11 15:45:00,311: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-11 15:45:00,323: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-11 15:45:00,323: INFO: comman: create directory at: artifacts]
+[2023-10-11 15:45:00,330: INFO: comman: create directory at: artifacts\training]
+[2023-10-11 15:46:39,845: INFO: main: >>>>>>> stage Training completed <<<<<<
+
+x==============x]
+[2023-10-11 15:46:39,845: INFO: main: *******************]
+[2023-10-11 15:46:39,857: INFO: main: >>>>>> stage Evaluation Stage started <<<<<<]
+[2023-10-11 15:46:39,858: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-11 15:46:39,862: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-11 15:46:39,863: INFO: comman: create directory at: artifacts]
+[2023-10-11 15:47:11,058: INFO: comman: json file save at: score.json]
+[2023-10-11 15:47:11,058: INFO: comman: json file save at: score.json]
+[2023-10-11 15:47:12,961: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-11 15:47:13,714: INFO: builder_impl: Assets written to: C:\Users\ASUSPC~1\AppData\Local\Temp\tmp1yt2mo1o\model\data\model\assets]
+[2023-10-11 15:47:23,144: INFO: dir_util: creating D:\project\kidney-disease-classification\mlruns\0\df5f6adaa31641d28c62a1342301d8cd\artifacts\model\data]
+[2023-10-11 15:47:23,148: INFO: dir_util: creating D:\project\kidney-disease-classification\mlruns\0\df5f6adaa31641d28c62a1342301d8cd\artifacts\model\data\model]
+[2023-10-11 15:47:23,150: INFO: dir_util: creating D:\project\kidney-disease-classification\mlruns\0\df5f6adaa31641d28c62a1342301d8cd\artifacts\model\data\model\assets]
+[2023-10-11 15:47:23,155: INFO: dir_util: creating D:\project\kidney-disease-classification\mlruns\0\df5f6adaa31641d28c62a1342301d8cd\artifacts\model\data\model\variables]
+[2023-10-11 15:47:23,281: INFO: main: >>>>>> stage Evaluation Stage completed <<<<<<
+
+x==========x]
