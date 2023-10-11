@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/project/kidney-disease-classification/mlruns/0/b98336d78b0e42e0a15ae490ff79ae50/artifacts
+end_time: 1697016207069
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b98336d78b0e42e0a15ae490ff79ae50
+run_name: nosy-sloth-988
+run_uuid: b98336d78b0e42e0a15ae490ff79ae50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697016195803
+status: 3
+tags: []
+user_id: ASUS PC
