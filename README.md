@@ -12,7 +12,7 @@ python script.py
 if you are using cmd ,export the env variable using cmd 
 use set MLFLOW_TRACKING_URI=https://dagshub.com/Prashantkhobragade/kidney-disease-classification.mlflow in your cmd
 
-### DVC Coomands
+### DVC cmd
   1. dvc init
   2. dvc repro
   3. dvc dag
