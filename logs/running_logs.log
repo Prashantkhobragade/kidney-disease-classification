@@ -637,3 +637,65 @@ Traceback (most recent call last):
   File "C:\Users\ASUS PC\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
     raise MlflowException(
 mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/update failed with error code 400 != 200. Response body: '"repo not associated with run"'
+[2023-10-12 14:41:11,593: INFO: stage_01_data_ingestion: >>>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2023-10-12 14:41:11,597: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 14:41:11,599: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 14:41:11,600: INFO: comman: create directory at: artifacts]
+[2023-10-12 14:41:11,600: INFO: comman: create directory at: artifacts/data_ingestion]
+[2023-10-12 14:41:11,601: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-12 14:41:18,594: INFO: data_ingestion: Download data from https://drive.google.com/file/d/1WuolagDJZn0u02MzXCSsnLkXT2zehfBE/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-12 14:41:19,282: INFO: stage_01_data_ingestion: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x=============x]
+[2023-10-12 14:41:28,955: INFO: stage_02_prepare_base_model: ***********************************]
+[2023-10-12 14:41:28,955: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<<<<<<]
+[2023-10-12 14:41:28,957: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 14:41:28,959: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 14:41:28,960: INFO: comman: create directory at: artifacts]
+[2023-10-12 14:41:28,960: INFO: comman: create directory at: artifacts/prepare_base_model]
+[2023-10-12 14:41:29,545: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-12 14:41:29,889: INFO: stage_02_prepare_base_model: >>>>>>>>> stage Prepare base model completed <<<<<<<
+
+x========================x]
+[2023-10-12 14:51:46,944: INFO: stage_03_model_training: *****************]
+[2023-10-12 14:51:46,944: INFO: stage_03_model_training: >>>>> stage Training started <<<<<<]
+[2023-10-12 14:51:46,944: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 14:51:46,944: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 14:51:46,944: INFO: comman: create directory at: artifacts]
+[2023-10-12 14:51:46,944: INFO: comman: create directory at: artifacts\training]
+[2023-10-12 14:54:49,040: INFO: stage_03_model_training: >>>>>>>> stage Training completed <<<<<
+
+x=========x]
+[2023-10-12 14:54:55,402: INFO: stage_04_model_evaluation: *******************]
+[2023-10-12 14:54:55,404: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation Stage started <<<<<<]
+[2023-10-12 14:54:55,405: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 14:54:55,408: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 14:54:55,408: INFO: comman: create directory at: artifacts]
+[2023-10-12 14:55:24,510: INFO: comman: json file save at: score.json]
+[2023-10-12 14:55:24,510: INFO: comman: json file save at: score.json]
+[2023-10-12 14:55:28,846: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-12 14:55:29,493: INFO: builder_impl: Assets written to: C:\Users\ASUSPC~1\AppData\Local\Temp\tmpd8pqzhge\model\data\model\assets]
+[2023-10-12 14:56:25,621: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation Stage completed <<<<<<
+
+x==========x]
+[2023-10-12 14:58:30,651: INFO: stage_03_model_training: *****************]
+[2023-10-12 14:58:30,651: INFO: stage_03_model_training: >>>>> stage Training started <<<<<<]
+[2023-10-12 14:58:30,653: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 14:58:30,653: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 14:58:30,653: INFO: comman: create directory at: artifacts]
+[2023-10-12 14:58:30,653: INFO: comman: create directory at: artifacts\training]
+[2023-10-12 15:04:36,584: INFO: stage_03_model_training: >>>>>>>> stage Training completed <<<<<
+
+x=========x]
+[2023-10-12 15:04:42,987: INFO: stage_04_model_evaluation: *******************]
+[2023-10-12 15:04:43,001: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation Stage started <<<<<<]
+[2023-10-12 15:04:43,003: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-10-12 15:04:43,003: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-10-12 15:04:43,003: INFO: comman: create directory at: artifacts]
+[2023-10-12 15:05:12,484: INFO: comman: json file save at: score.json]
+[2023-10-12 15:05:12,484: INFO: comman: json file save at: score.json]
+[2023-10-12 15:05:24,331: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-12 15:05:24,945: INFO: builder_impl: Assets written to: C:\Users\ASUSPC~1\AppData\Local\Temp\tmpjfe1i17f\model\data\model\assets]
+[2023-10-12 15:06:44,451: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation Stage completed <<<<<<
+
+x==========x]
