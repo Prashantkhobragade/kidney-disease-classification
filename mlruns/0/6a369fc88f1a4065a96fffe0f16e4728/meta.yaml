@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/project/kidney-disease-classification/mlruns/0/6a369fc88f1a4065a96fffe0f16e4728/artifacts
+end_time: 1697033073472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a369fc88f1a4065a96fffe0f16e4728
+run_name: amazing-croc-352
+run_uuid: 6a369fc88f1a4065a96fffe0f16e4728
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697033059098
+status: 3
+tags: []
+user_id: ASUS PC
