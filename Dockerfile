@@ -1,6 +1,6 @@
 FROM python:3.10.0
 
-RUN apt update -y && install awscli -y
+RUN apt-get update -y && install awscli -y
 WORKDIR /app
 
 COPY . /app
