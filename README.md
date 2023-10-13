@@ -10,6 +10,7 @@ The Kidney Tumor Dataset is a comprehensive collection of medical imaging data d
 
   1. **Clone the repo**
      ```bash
+     https://github.com/Prashantkhobragade/kidney-disease-classification.git
      ```
   2. **Create Conda env with python = 3.10.0**
 
