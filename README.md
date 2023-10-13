@@ -22,6 +22,13 @@ The Kidney Tumor Dataset is a comprehensive collection of medical imaging data d
      
      ``` python app.py ```
 
+
+### Data Source:
+
+This dataset is sourced from Kaggle and is provided by the user nazmul0087. You can access the dataset on Kaggle using the following link: [Kidney Tumor Dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone).
+
+
+
 ### MLflow
 
   * Its Production Grade
@@ -124,3 +131,10 @@ AWS_ECR_LOGIN_URI = before / part from ecr uri
 
 ECR_REPOSITORY_NAME = after / from ecr uri
 ```
+
+### Project Focus
+  - The main focus of this project is not to develop ML model but to Introduce MlOps Tools such as MLflow and DVC(data version control) and explore deployment in the AWS cloud infrastructure.
+
+  - Due to resource constrain the model is trained on the subset of the dataset for only 2 Epochs with a learning rate of 0.001. I got a validation accuracy of 50%.
+
+  - Please feel free to explore this dataset and associated code and documentation to better understand our approach and contribution to the advancement of the project
