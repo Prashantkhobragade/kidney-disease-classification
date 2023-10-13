@@ -1,5 +1,8 @@
 ## kidney-disease-classification
 
+The Kidney Tumor Dataset is a comprehensive collection of medical imaging data designed for the purpose of detecting and diagnosing various kidney conditions. This dataset encompasses a wide range of kidney images, including normal kidneys, cysts, tumors, and kidney stones. It serves as a valuable resource for researchers and healthcare professionals in the field of medical image analysis and diagnosis.
+
+
 
 ### How To Run?
 
