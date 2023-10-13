@@ -86,10 +86,11 @@ python script.py
             1. AmazonEC2ContainerRegistryFullAccess
             2. AmazonEC2FullAccess
   3. **Create ECR repo to store docker Image**
+
      ``` save the ecr uri ```
 
-  4. **Create EC2 machine Ubuntu**
-  5. **open EC2 and Install Docker in Ec2 machine**
+  5. **Create EC2 machine Ubuntu**
+  6. **open EC2 and Install Docker in Ec2 machine**
       ```#optinal
 
           sudo apt-get update -y
@@ -108,11 +109,11 @@ python script.py
 
           docker --version
       ```
-  6. **Configure EC2 as self-hosted runner**
+  7. **Configure EC2 as self-hosted runner**
        ```
        setting>actions>runner>new self hosted runner> choose os (linux)> then run command one by one
        ```
-   7. **Setup Github secrets**
+   8. **Setup Github secrets**
 ```AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
